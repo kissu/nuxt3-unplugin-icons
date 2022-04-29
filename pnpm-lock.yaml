@@ -1,14 +1,18 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@iconify-json/carbon': ^1.0.11
+  '@iconify-json/fa6-solid': ^1.1.3
   '@iconify-json/mdi': ^1.1.10
+  '@iconify-json/noto-v1': ^1.1.1
+  '@iconify-json/ri': ^1.1.1
   nuxt: 3.0.0-rc.1
   unplugin-icons: ^0.14.1
 
 devDependencies:
-  '@iconify-json/carbon': 1.0.11
+  '@iconify-json/fa6-solid': 1.1.3
   '@iconify-json/mdi': 1.1.10
+  '@iconify-json/noto-v1': 1.1.1
+  '@iconify-json/ri': 1.1.1
   nuxt: 3.0.0-rc.1
   unplugin-icons: 0.14.1
 
@@ -331,14 +335,26 @@ packages:
       mime: 3.0.0
     dev: true
 
-  /@iconify-json/carbon/1.0.11:
-    resolution: {integrity: sha512-vwjG7/uzD7ToQwt+dBHjLJ6Fd2AsnxrFOYjypiuuleqRX/zEQTMC58GsdqO77IuVz4E/HcO+DJ83w+QItCRDRg==}
+  /@iconify-json/fa6-solid/1.1.3:
+    resolution: {integrity: sha512-ZRYc+Rqor5Zjs8w+fsxiEQ7SDNIhQho3SF8Q1P4kEWZP0qo53DTp38iIg2qTjQy8UNZx2EsGjFqrTeHXNpx3cw==}
     dependencies:
       '@iconify/types': 1.1.0
     dev: true
 
   /@iconify-json/mdi/1.1.10:
     resolution: {integrity: sha512-M3ObDNtqnCr6MI5D+psxaGcAWVDE+aLA1nP4SESNxAdMhcXd3FOMBkg//qPXNFPgwnloGT7cbJMkU0zislDSTw==}
+    dependencies:
+      '@iconify/types': 1.1.0
+    dev: true
+
+  /@iconify-json/noto-v1/1.1.1:
+    resolution: {integrity: sha512-JPIeLUz6SoeU4Z3I+CpPMSNwQ7G2MFbD6zKLYgy9qVKQdzBBCAPXAgiGrGP/NUdXSonunJBfGxuH/L0kF5Oukw==}
+    dependencies:
+      '@iconify/types': 1.1.0
+    dev: true
+
+  /@iconify-json/ri/1.1.1:
+    resolution: {integrity: sha512-H2Bvtew65rCw275lZaLk5sxTmmxa9kpd2i2FOVncDLa/Wpn9L6AnTZhR1NzzPb6iqK2D8HE4Y/wcVr6o0KjMlw==}
     dependencies:
       '@iconify/types': 1.1.0
     dev: true
