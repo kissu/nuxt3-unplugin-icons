@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@iconify-json/carbon": "^1.0.11",
+    "@iconify-json/mdi": "^1.1.10",
+    "nuxt": "3.0.0-rc.1",
+    "unplugin-icons": "^0.14.1"
+  }
+}
